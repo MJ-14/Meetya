@@ -19,7 +19,10 @@
 
     <!-- Responsive CSS -->
     <link href="css/responsive/responsive.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 
 </head>
 
@@ -105,11 +108,77 @@
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-outline-success btn-block">Se connecter</button>
+            <button type="button" class="btn btn-outline-warning">Se connecter</button>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Modal Inscription -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Inscrivez-vous</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Mot de Passe</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Adresse</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="16 rue ...">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Complément d'adresse</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Appartement, studio, ou étage">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Ville</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Etat</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choisir...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">ZIP</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Confirmer inscription
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-outline-warning">S'inscrire</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        <button type="button" class="btn btn-outline-warning">Sauvegarder</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- ***** Hero Area Start ***** -->
     <div class="video-background-holder"
@@ -124,9 +193,9 @@
                                 <div class="d-flex h-100 text-center align-items-center">
                                     <div class="w-100 text-white">
                                         <div class="h1 text-center text-white" id="Header1" >PRATICE TOGETHER</h1>
-                                        <p class="lead">Le sport mérite d'être partagé à plusieurs, rejoins la team !</p>
-                                        <a href="#" class="btn fancy-btn fancy-active">About Us</a>
-                                        <a href="#" class="btn fancy-btn">Get a quote</a>
+                                        <p class="lead text-white">Le sport mérite d'être partagé à plusieurs, rejoins la team !</p>
+                                        <a data-toggle="modal" data-target="#exampleModal1" class="btn fancy-btn">NOUS REJOINDRE</a>
+                                        <a href="#" class="btn fancy-btn">NOTRE CONCEPT</a>
                                     </div>
                                 </div>  
                         </div>
