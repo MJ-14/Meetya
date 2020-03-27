@@ -500,7 +500,7 @@ li {
     line-height: 30px;
     margin-right: 15px;
     border-radius: 50%;
-    color: #2bc0a4;
+    color: #FF8C00;
 }
 
 .fancy-hero-content h2 {
@@ -584,7 +584,7 @@ li {
 }
 
 .single-top-feature h5 i {
-    color: #2bc0a4;
+    color: #FF8C00;
 }
 
 /* About Us Area CSS */
@@ -642,10 +642,10 @@ li {
     display: block;
     position: relative;
     height: 100%;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #FF512F, #F09819);
+    background: -webkit-linear-gradient(left, #FF512F, #F09819);
+    background: linear-gradient(to right, #FF512F, #F09819);
     z-index: 1;
 }
 
@@ -691,10 +691,10 @@ li {
 
 .single-service-area i {
     font-size: 40px;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #FF512F, #F09819);
+    background: -webkit-linear-gradient(left, #FF512F, #F09819);
+    background: linear-gradient(to right, #FF512F, #F09819);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-transition-duration: 500ms;
@@ -745,7 +745,7 @@ li {
 .testimonilas-content span.quote {
     font-size: 120px;
     line-height: 1;
-    background: #7450fe;
+    background: #FF512F;
     background: -webkit-linear-gradient(to right, #FF512F, #F09819 );
     background: -webkit-linear-gradient(left, #FF512F, #F09819 );
     background: linear-gradient(to right, #FF512F, #F09819 );
@@ -832,13 +832,13 @@ li {
     display: block;
     font-size: 14px;
     text-transform: capitalize;
-    color: #2bc0a4;
+    color: #F09819 ;
     text-decoration: underline;
     font-weight: 400;
 }
 
 .blog-content > a:hover {
-    color: #7450fe;
+    color: #FF512F;
 }
 
 /* Footer Area CSS */
@@ -886,10 +886,10 @@ li {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
-    background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #FF512F, #F09819);
+    background: -webkit-linear-gradient(left, #FF512F, #F09819);
+    background: linear-gradient(to right, #FF512F, #F09819);
 }
 
 .footer-social-widegt {
@@ -897,7 +897,7 @@ li {
 }
 
 .footer-social-widegt > a {
-    color: #2bc0a4;
+    color: #F09819;
     font-size: 14px;
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -905,7 +905,7 @@ li {
 }
 
 .footer-social-widegt > a:hover {
-    color: #7450fe;
+    color: #FF512F;
 }
 
 .single-tweet a {
@@ -943,7 +943,7 @@ li {
 
 .single-footer-widget ul li a:hover {
     margin-left: 5px;
-    color: #2bc0a4;
+    color: #F09819;
 }
 
 .footer-copywrite-area {
@@ -1198,7 +1198,7 @@ li {
 }
 
 .tags-widget > a:hover {
-    background-color: #7450fe;
+    background-color: #FF512F;
     color: #fff;
 }
 
