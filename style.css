@@ -105,9 +105,9 @@ li {
 #preloader {
     overflow: hidden;
     background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: -webkit-linear-gradient(to right, #FF512F, #F09819);
+    background: -webkit-linear-gradient(left, #FF512F, #F09819);
+    background: linear-gradient(to right, #FF512F, #F09819);
     height: 100%;
     left: 0;
     position: fixed;
@@ -746,9 +746,9 @@ li {
     font-size: 120px;
     line-height: 1;
     background: #7450fe;
-    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
-    background: -webkit-linear-gradient(left, #7450fe, #21d397);
-    background: linear-gradient(to right, #7450fe, #21d397);
+    background: -webkit-linear-gradient(to right, #FF512F, #F09819 );
+    background: -webkit-linear-gradient(left, #FF512F, #F09819 );
+    background: linear-gradient(to right, #FF512F, #F09819 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
