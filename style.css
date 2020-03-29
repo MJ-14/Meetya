@@ -1294,3 +1294,7 @@ header video {
 #Header1 {
     font-family: 'Fugaz One', cursive;
 }
+
+.fancy-about-us-area bg-gray { 
+    text-align: center;
+}
