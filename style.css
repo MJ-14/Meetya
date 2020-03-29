@@ -1289,3 +1289,7 @@ header video {
     color: #fff;
     background-color:#E4572E !important;
 }
+
+#Header1 {
+    font-family: 'Fugaz One', cursive;
+}
