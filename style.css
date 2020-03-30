@@ -1295,6 +1295,7 @@ header video {
     font-family: 'Fugaz One', cursive;
 }
 
-.fancy-about-us-area bg-gray { 
+/* Test Emilie - Centrer la classe .fancy-about-us-area bg-gray*/
+.testemilie { 
     text-align: center;
 }
