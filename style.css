@@ -256,9 +256,8 @@ li {
 }
 
 .section-heading h2 {
-    margin-top: 55px;
     font-size: 38px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .section-heading.heading-white h2,
