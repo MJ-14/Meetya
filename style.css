@@ -256,8 +256,9 @@ li {
 }
 
 .section-heading h2 {
+    margin-top: 55px;
     font-size: 38px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .section-heading.heading-white h2,
@@ -541,15 +542,6 @@ li {
 }
 
 /* Top Features Area CSS */
-
-.vp-notreconcept {
-    width : 100vw;
-    height: 90vh;
-    background-image: url(notreconcept.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .fancy-top-features-area {
     position: relative;
@@ -850,6 +842,44 @@ li {
 .blog-content > a:hover {
     color: #FF512F;
 }
+
+.icone-mj {
+    font-size: 40px;
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right, #FF512F, #F09819);
+    background: -webkit-linear-gradient(left, #FF512F, #F09819);
+    background: linear-gradient(to right, #FF512F, #F09819);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+
+}
+
+.icone-mj:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.text-mj {
+    color: #51545f;
+    font-size: 18px;
+}
+
+.titre-mj {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #232d37;
+    line-height: 1.25;
+}
+
+
+.titre-mj:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+
 
 /* Footer Area CSS */
 
@@ -1307,4 +1337,3 @@ header video {
 .testemilie { 
     text-align: center;
 }
-
