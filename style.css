@@ -882,7 +882,10 @@ li {
     transform: scale(1.2)
 }
 
-
+.img-blog-mj {
+    width: 600px;
+    height : 230px;
+}
 
 /* Footer Area CSS */
 
