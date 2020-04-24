@@ -1,3 +1,13 @@
+
+Team Meetya :
+Emilie CODJO
+Charlène ISSERT
+Téo MESTRE
+Angélina LEBRUN
+Marie JARD
+
+
+
 Thank you for using our template!
 
 For more awesome templates please visit https://colorlib.com/wp/templates/
